@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_gh7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "contenedorcodefest"
+			}
+		}
+	}
+}
